@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    avoid_print: false
+
+analyzer:
+  errors:
+    deprecated_member_use: ignore
+    depend_on_referenced_packages: ignore
+    curly_braces_in_flow_control_structures: ignore
+    unnecessary_brace_in_string_interps: ignore
